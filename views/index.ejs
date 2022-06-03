@@ -1,0 +1,41 @@
+<!--Header Partial Included -->
+<% include partials/header.ejs %>
+
+<!--Top Navbar Partial Included -->
+<% include partials/navbar.ejs %>
+
+  <div class="container" >
+    <div class="row">
+  <h1 class="headerText">Welcome to the <%= title %> page</h1>
+</div>
+<hr>
+</br>
+  <div class="row">
+    <div class="col-7">
+    <h4>Hi, I am Abhishke Malhota. </h4>
+    <p style="font-size: larger;">
+      I am a full stack developer and worked on various projects using
+      different languages such as c#.net, python, java. Currently I am working
+      on MEAN stack. 
+     </p>
+     <br><br><br>
+     <div class="card" style="width:40rem;">
+      <div class="card-body">
+        <h5 class="card-title headerText" >Mission</h5>
+        <p class="card-text" style="font-size: large;">I am passionate about learning and exploring new technologies.
+          I want to create scalable and user-friendly websites.</p>
+          <button class="btn btn-primary" onclick="window.open('/about')">Learn more About me</button>
+      </div>
+      </div>
+  </div>
+  <div class="col-4">
+    <img src="/Assests/images/Abhi.jpeg" height="400px">
+  </div>
+  </div>
+  <br><br><br>
+ </div>
+ <!--Bottom Navbar Partial Included -->
+ <% include partials/bottomnavbar.ejs %> 
+
+<!--Footer Partial Included -->
+ <% include partials/footer.ejs %>
